@@ -1,3 +1,5 @@
+![Alt text](algorithm2.png?raw=true "Perceptron algorithm image")
+
 # Intro
 There are two files, Simple.js for running and tesing one single perceptron. code usage example for single one as follow:
 
@@ -14,23 +16,23 @@ p.display();
 ```
 
 # Usage
-
-`node simple.js`
-
-and
-`node multi.js`
-
+Call script via node as shown below:
+`node simple.js` and `node multi.js`
 
 # Example Output
 
 ### Simple
 
+command: `yeo@yeo-GF63-8RD:~/Development/Machine Learning/perceptron$ node simple.js`
+output:
 ```
-yeo@yeo-GF63-8RD:~/Development/Machine Learning/perceptron$ node simple.js 
 Inputs: x0=1, x1=1, Actual Output(yt):2, Desired Output(yt):1
 Accuracy: 0
 Next Weights: w0:0.5 and w1:1.5
-yeo@yeo-GF63-8RD:~/Development/Machine Learning/perceptron$ node simple.js 
+```
+command: `yeo@yeo-GF63-8RD:~/Development/Machine Learning/perceptron$ node simple.js`
+output:
+```
 Init Weights: w0:1 and w1:1
 Inputs: x0=1, x1=1, Actual Output(yt):2, Desired Output(yt):1
 Accuracy: 0
@@ -38,8 +40,9 @@ Next Weights: w0:0.5 and w1:1.5
 ```
 
 ### Multi
+command: `yeo@yeo-GF63-8RD:~/Development/Machine Learning/perceptron$ node multi.js`
+output:
 ```
-yeo@yeo-GF63-8RD:~/Development/Machine Learning/perceptron$ node multi.js 
 x0:1, x1:1, dt:1,-1,-1,-1
 Init Weights: w0:1 and w1:1
 Inputs: x0=1, x1=1, Actual Output(yt):2, Desired Output(yt):1
