@@ -1,5 +1,7 @@
 ![Alt text](algorithm2.png?raw=true "Perceptron algorithm image")
 
+Github: https://github.com/yeomann/perceptron-js-machine-learing
+
 # Intro
 There are two files, Simple.js for running and tesing one single perceptron. code usage example for single one as follow:
 
