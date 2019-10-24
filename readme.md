@@ -24,14 +24,18 @@ Call script via node as shown below:
 ### Simple
 
 command: `yeo@yeo-GF63-8RD:~/Development/Machine Learning/perceptron$ node simple.js`
+
 output:
+
 ```
 Inputs: x0=1, x1=1, Actual Output(yt):2, Desired Output(yt):1
 Accuracy: 0
 Next Weights: w0:0.5 and w1:1.5
 ```
 command: `yeo@yeo-GF63-8RD:~/Development/Machine Learning/perceptron$ node simple.js`
+
 output:
+
 ```
 Init Weights: w0:1 and w1:1
 Inputs: x0=1, x1=1, Actual Output(yt):2, Desired Output(yt):1
@@ -41,6 +45,7 @@ Next Weights: w0:0.5 and w1:1.5
 
 ### Multi
 command: `yeo@yeo-GF63-8RD:~/Development/Machine Learning/perceptron$ node multi.js`
+
 output:
 ```
 x0:1, x1:1, dt:1,-1,-1,-1
